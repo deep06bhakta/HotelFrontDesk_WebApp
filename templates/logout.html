@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Logged Out</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body class="bg-dark">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6 text-center mt-5">
+                <h1 class="mb-3" style="color: aliceblue;">You have been logged out</h1>
+                <p class="lead mb-4" style="color: aliceblue;">Thank you for using our application.</p>
+                <a href="{{ url_for('login') }}" class="btn btn-primary">Log In Again</a>
+            </div>
+        </div>
+    </div>
+    <!-- Optional: Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

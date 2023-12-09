@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Check-Out</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/check_out.css') }}">
+</head>
+<body class="bg-dark">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6 mt-5">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h2 class="card-title text-center mb-4">Guest Check-Out</h2>
+                        <!-- check_out.html -->
+                        <form method="POST" action="{{ url_for('check_out') }}">
+                            <label for="room_number">Room Number:</label>
+                            <input type="text" name="room_number" required>
+                            <button type="submit">Check Out</button>
+                        </form>
+                    </div>
+                </div>
+                <a href="{{ url_for('front_desk') }}" class="btn btn-primary mt-3" style="color: aliceblue;">Return to Front Desk</a>
+            </div>
+        </div>
+    </div>
+   
+</body>
+</html>
