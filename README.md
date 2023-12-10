@@ -622,5 +622,23 @@ Adjust the content as needed, and make sure to replace placeholders such as `fil
 
 </details>
 
+# Contributors
+
+A big thank you to the following contributors who have helped in the development of this project:
+
+- **Deep Bhakta**
+  - Email: [deepbhakta06@gmail.com](mailto:deepbhakta06@gmail.com)
+  - GitHub: [deep06bhakta](https://github.com/deep06bhakta)
+
+- **Branden Zamora**
+  - Email: [branden.z1229@gmail.com](mailto:branden.z1229@gmail.com)
+  - GitHub: [branden12](https://github.com/branden12)
+
+- **Brian Contreras**
+  - Email: N/A
+  - GitHub: N/A
+
+If you are interested in contributing to this project, feel free to reach out or submit pull requests. Your contributions are highly appreciated!
+
 
 
