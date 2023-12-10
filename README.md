@@ -28,7 +28,7 @@ The purpose of this homework assignment is to get students an opportunity to bui
   - [Option 3: Using FileZilla](#using-filezilla)
 - [Deploying Python Web Application Project](#deploying-python-web-application-project)
 - [Deployment](#deployment)
-- [Contributing](#contributing)
+- [Contributors](#Contributors)
 - [License](#license)
 
 
