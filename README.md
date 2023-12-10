@@ -35,52 +35,6 @@ The purpose of this homework assignment is to get students an opportunity to bui
 
 - [License](#license)
 
-
-<details>
-  <summary><strong>How to Create an IAM Role in AWS</strong></summary>
-
-  IAM roles in AWS are used to delegate permissions to entities that you trust. Follow the steps below to create an IAM role:
-
-  ### 1. Navigate to the IAM Console
-
-  - Go to the AWS Management Console and navigate to the IAM (Identity and Access Management) service.
-
-  ### 2. Select "Roles" in the Navigation Pane
-
-  - In the IAM dashboard, select "Roles" from the left navigation pane.
-
-  ### 3. Click on "Create Role"
-
-  - Click the "Create Role" button to initiate the role creation process.
-
-  ### 4. Choose the Trusted Entity Type
-
-  - Select the trusted entity type. This is typically the AWS service that will assume the role. Choose the service or entity that will assume this role.
-
-  ### 5. Select Use Case and Permissions
-
-  - Choose a use case scenario that best describes your use of this role, and then click "Next: Permissions."
-
-  ### 6. Attach Policies
-
-  - Search and attach policies that define the permissions for the role. These policies determine what actions can be performed by the role.
-
-  ### 7. Configure Tags (Optional)
-
-  - Optionally, you can add tags to the role for better organization and management. Click "Next: Tags" if you want to add tags.
-
-  ### 8. Review and Name the Role
-
-  - Provide a meaningful name and description for your role. Review the configuration settings and click "Create Role" to complete the process.
-
-  ### 9. Access and Use the Role
-
-  - Once the role is created, you can find it in the IAM dashboard under "Roles." To use the role, note its Amazon Resource Name (ARN) and configure the entity that will assume this role, such as an EC2 instance or an AWS Lambda function.
-
-  **Congratulations!** You have successfully created an IAM role in AWS. This role can now be assumed by trusted entities to access AWS resources based on the assigned permissions.
-
-</details>
-
 <details>
   <summary><strong>How to Create an AWS Account</strong></summary>
 
@@ -124,6 +78,51 @@ The purpose of this homework assignment is to get students an opportunity to bui
   - You will receive an email from AWS asking you to confirm your email address. Click on the confirmation link provided in the email to activate your AWS account.
 
   **Congratulations!** You have successfully created an AWS account. You can now log in to the AWS Management Console and start exploring the wide range of cloud services offered by AWS.
+
+</details>
+
+<details>
+  <summary><strong>How to Create an IAM Role in AWS</strong></summary>
+
+  IAM roles in AWS are used to delegate permissions to entities that you trust. Follow the steps below to create an IAM role:
+
+  ### 1. Navigate to the IAM Console
+
+  - Go to the AWS Management Console and navigate to the IAM (Identity and Access Management) service.
+
+  ### 2. Select "Roles" in the Navigation Pane
+
+  - In the IAM dashboard, select "Roles" from the left navigation pane.
+
+  ### 3. Click on "Create Role"
+
+  - Click the "Create Role" button to initiate the role creation process.
+
+  ### 4. Choose the Trusted Entity Type
+
+  - Select the trusted entity type. This is typically the AWS service that will assume the role. Choose the service or entity that will assume this role.
+
+  ### 5. Select Use Case and Permissions
+
+  - Choose a use case scenario that best describes your use of this role, and then click "Next: Permissions."
+
+  ### 6. Attach Policies
+
+  - Search and attach policies that define the permissions for the role. These policies determine what actions can be performed by the role.
+
+  ### 7. Configure Tags (Optional)
+
+  - Optionally, you can add tags to the role for better organization and management. Click "Next: Tags" if you want to add tags.
+
+  ### 8. Review and Name the Role
+
+  - Provide a meaningful name and description for your role. Review the configuration settings and click "Create Role" to complete the process.
+
+  ### 9. Access and Use the Role
+
+  - Once the role is created, you can find it in the IAM dashboard under "Roles." To use the role, note its Amazon Resource Name (ARN) and configure the entity that will assume this role, such as an EC2 instance or an AWS Lambda function.
+
+  **Congratulations!** You have successfully created an IAM role in AWS. This role can now be assumed by trusted entities to access AWS resources based on the assigned permissions.
 
 </details>
 
