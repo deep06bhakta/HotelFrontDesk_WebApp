@@ -258,10 +258,42 @@ The purpose of this homework assignment is to get students an opportunity to bui
 
 </details>
 
+<details>
+  <summary>How to Create a Route Table in AWS</summary>
 
+  A Route Table in AWS is used to define rules for routing network traffic within a Virtual Private Cloud (VPC). Follow the steps below to create a Route Table:
 
+  ### 1. Navigate to the VPC Dashboard
 
+  - Go to the AWS Management Console and navigate to the VPC service.
 
+  ### 2. Click on "Route Tables" in the Navigation Pane
 
+  - In the VPC dashboard, click on "Route Tables" in the left navigation pane.
 
+  ### 3. Click on "Create Route Table"
+
+  - Click the "Create Route Table" button to initiate the Route Table creation process.
+
+  ### 4. Name the Route Table
+
+  - Provide a name for the Route Table to help identify its purpose.
+
+  ### 5. Associate the Route Table with a VPC
+
+  - In the "Associations" tab, click on "Edit associations."
+  - Select the subnets you want to associate with the Route Table.
+
+  ### 6. Add Routes
+
+  - In the "Routes" tab, click on "Edit routes."
+  - Add routes to define how network traffic should be directed.
+
+  ### 7. Save Changes
+
+  - Save the changes to create and configure the Route Table.
+
+  **Congratulations!** You have successfully created a Route Table in AWS and configured routing rules for your VPC.
+
+</details>
 
