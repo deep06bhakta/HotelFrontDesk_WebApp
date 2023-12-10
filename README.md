@@ -529,6 +529,8 @@ Adjust the content as needed, and make sure to replace placeholders such as `fil
 
 </details>
 
+# Deployment
+
 <details>
   <summary>Deploying Python Web Application Project</summary>
 
