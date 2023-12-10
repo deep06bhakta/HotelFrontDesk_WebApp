@@ -12,8 +12,13 @@ The purpose of this homework assignment is to get students an opportunity to bui
   - [How to Create an EC2 Instance in AWS](#how-to-create-an-ec2-instance-in-aws)
   - [How to Create an Internet Gateway in AWS](#how-to-create-an-internet-gateway-in-aws)
   - [How to Create a Route Table in AWS](#how-to-create-a-route-table-in-aws)
+- [Connecting to the EC2 Instance](#connecting-to-the-ec2-instance)
+  - [Option 1: Connect using SSH from Local](#option-1-connect-using-ssh-from-local)
+  - [Option 2: Connect using the AWS CLI](#option-2-connect-using-the-aws-cli)
+- [Deployment](#deployment)
 - [Contributing](#contributing)
 - [License](#license)
+
 
 # AWS Account Setup
 
@@ -279,3 +284,48 @@ The purpose of this homework assignment is to get students an opportunity to bui
 
 </details>
 
+# Connecting to the EC2 Instance
+
+<details>
+  <summary>Option 1: Connect using SSH from Local</summary>
+
+  Connecting to your EC2 instance using SSH from your local machine allows you to access and manage the instance securely.
+
+  ### Prerequisites
+  - An EC2 instance with SSH key pair
+  - The private key (.pem) file associated with the key pair
+
+  ### Steps
+  1. Open a terminal on your local machine.
+  2. Use the following command to connect to your EC2 instance. Replace `your-instance-ip` with the actual public IP address of your EC2 instance and `your-key.pem` with the path to your private key file.
+
+      ```bash
+      ssh -i /path/to/your-key.pem ec2-user@your-instance-ip
+      ```
+
+  3. You are now connected to your EC2 instance via SSH.
+
+</details>
+
+<details>
+  <summary>Option 2: Connect using the AWS CLI</summary>
+
+  You can also connect to your EC2 instance using the AWS Command Line Interface (CLI), providing a convenient way to manage your AWS resources.
+
+  ### Prerequisites
+  - AWS CLI installed on your local machine
+  - AWS credentials configured on your machine
+
+  ### Steps
+  1. Open a terminal on your local machine.
+  2. Use the following command to connect to your EC2 instance. Replace `your-instance-id` with the actual ID of your EC2 instance.
+
+      ```bash
+      aws ec2-instance-connect send-ssh-public-key --instance-id your-instance-id --availability-zone your-instance-availability-zone --instance-os-user ec2-user --ssh-public-key file://path/to/your-public-key.pub
+      ```
+
+  3. You are now connected to your EC2 instance using the AWS CLI.
+
+</details>
+
+Adjust the content as needed, and make sure to replace placeholders such as `your-instance-ip`, `your-key.pem`, `your-instance-id`, `your-instance-availability-zone`, and `path/to/your-public-key.pub` with your actual information.
