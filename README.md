@@ -337,3 +337,100 @@ The purpose of this homework assignment is to get students an opportunity to bui
 </details>
 
 Adjust the content as needed, and make sure to replace placeholders such as `your-instance-ip`, `your-key.pem`, `your-instance-id`, `your-instance-availability-zone`, and `path/to/your-public-key.pub` with your actual information.
+
+# Creating Directories in EC2 Instance
+
+<details>
+  <summary>Option 1: Using Terminal or SSH</summary>
+
+  You can create directories directly on your EC2 instance using the terminal or SSH connection.
+
+  ### Steps
+  1. Connect to your EC2 instance using SSH.
+  2. Use terminal commands to navigate to the desired location where you want to create the directory.
+  3. Use the `mkdir` command to create a new directory. For example:
+
+      ```bash
+      mkdir new_directory
+      ```
+
+  4. Verify that the directory has been successfully created.
+
+</details>
+
+<details>
+  <summary>Option 2: Using AWS S3</summary>
+
+  Another option is to use AWS S3 to store and retrieve directories on your EC2 instance.
+
+  ### Steps
+  1. Upload the directory (with its contents) to an S3 bucket using the AWS Management Console or AWS CLI.
+  2. Connect to your EC2 instance using SSH.
+  3. Use the AWS CLI to download the directory from S3 to your EC2 instance. For example:
+
+      ```bash
+      aws s3 sync s3://your-bucket-name/path/to/directory /path/to/local/
+      ```
+
+  4. Verify that the directory has been successfully downloaded.
+
+</details>
+
+Adjust the content as needed, and make sure to replace placeholders such as `new_directory`, `your-bucket-name`, `/path/to/directory`, and `/path/to/local/` with your actual information.
+
+# Creating Files in EC2 Instance
+
+<details>
+  <summary>Option 1: Using Terminal or SSH</summary>
+
+  You can create files directly on your EC2 instance using the terminal or SSH connection.
+
+  ### Steps
+  1. Connect to your EC2 instance using SSH.
+  2. Use terminal commands to navigate to the desired directory where you want to create the file.
+  3. Use a text editor, such as `nano`, `vim`, or `emacs`, to create and edit files. For example:
+
+      ```bash
+      nano filename.txt
+      ```
+
+  4. Enter your text in the editor, save, and exit.
+
+</details>
+
+<details>
+  <summary>Option 2: Uploading Files</summary>
+
+  You can upload files from your local machine to your EC2 instance.
+
+  ### Steps
+  1. Use a tool like `scp` or an SFTP client to transfer files from your local machine to the EC2 instance. For example:
+
+      ```bash
+      scp /path/to/local/file.txt ec2-user@your-instance-ip:/path/to/remote/
+      ```
+
+  2. Connect to your EC2 instance using SSH.
+  3. Verify that the file has been successfully transferred.
+
+</details>
+
+<details>
+  <summary>Option 3: Using AWS S3</summary>
+
+  Another option is to use AWS S3 to store and retrieve files on your EC2 instance.
+
+  ### Steps
+  1. Upload the file to an S3 bucket using the AWS Management Console or AWS CLI.
+  2. Connect to your EC2 instance using SSH.
+  3. Use the AWS CLI to download the file from S3 to your EC2 instance. For example:
+
+      ```bash
+      aws s3 cp s3://your-bucket-name/path/to/file.txt /path/to/local/
+      ```
+
+  4. Verify that the file has been successfully downloaded.
+
+</details>
+
+Adjust the content as needed, and make sure to replace placeholders such as `filename.txt`, `your-instance-ip`, `/path/to/local/file.txt`, `your-bucket-name`, and `/path/to/remote/` with your actual information.
