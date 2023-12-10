@@ -127,7 +127,7 @@ The purpose of this homework assignment is to get students an opportunity to bui
 </details>
 
 <details>
-  <summary><strong>How to Create a VPC in AWS</strong></summary>
+  <summary> How to Create a VPC in AWS </summary>
 
   A Virtual Private Cloud (VPC) is a logically isolated section of the AWS Cloud where you can launch AWS resources. Follow the steps below to create a VPC:
 
