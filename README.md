@@ -28,6 +28,7 @@ The purpose of this homework assignment is to get students an opportunity to bui
   - [Option 3: Using FileZilla](#using-filezilla)
 - [Deploying Python Web Application Project](#deploying-python-web-application-project)
 - [Deployment](#deployment)
+- [References](#references)
 - [Contributors](#Contributors)
 - [License](#license)
 
@@ -621,6 +622,18 @@ Adjust the content as needed, and make sure to replace placeholders such as `fil
   Now, your Python web application is deployed on the EC2 instance. Customize the commands based on your project structure and requirements.
 
 </details>
+
+# References
+
+Here are some valuable references that have contributed to the development and understanding of this project:
+
+1. [RajKKapadia/YouTube-Python-Flask-AWS](https://github.com/RajKKapadia/YouTube-Python-Flask-AWS)
+
+2. [YouTube Video: AWS Flask Deployment](https://www.youtube.com/watch?v=5gSG5jwOJSY)
+
+3. [Stack Overflow: Connect to Amazon EC2 file/directory using FileZilla and SFTP](https://stackoverflow.com/questions/16744863/connect-to-amazon-ec2-file-directory-using-filezilla-and-sftp)
+
+Feel free to explore these resources for additional insights and guidance.
 
 # Contributors
 
