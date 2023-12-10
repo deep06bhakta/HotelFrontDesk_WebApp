@@ -174,6 +174,55 @@ The purpose of this homework assignment is to get students an opportunity to bui
 
 </details>
 
+<details>
+  <summary>How to Create an EC2 Instance in AWS</summary>
+
+  An EC2 instance is a virtual server in the AWS cloud. Follow the steps below to create an EC2 instance:
+
+  ### 1. Navigate to the EC2 Dashboard
+
+  - Go to the AWS Management Console and navigate to the EC2 service.
+
+  ### 2. Click on "Launch Instance"
+
+  - In the EC2 dashboard, click on "Launch Instance" to initiate the instance creation process.
+
+  ### 3. Choose an Amazon Machine Image (AMI)
+
+  - Select an AMI that suits your application requirements. This image will serve as the base for your instance.
+
+  ### 4. Choose an Instance Type
+
+  - Choose the instance type based on the computing resources needed for your application.
+
+  ### 5. Configure Instance Details
+
+  - Specify configuration details such as the number of instances, network settings, and user data.
+
+  ### 6. Add Storage
+
+  - Configure the storage settings for your instance, including the root volume and any additional volumes.
+
+  ### 7. Configure Security Groups
+
+  - Define security groups to control inbound and outbound traffic to your instance.
+
+  ### 8. Review and Launch
+
+  - Review the configuration settings and click "Launch" to proceed.
+
+  ### 9. Create or Select Key Pair
+
+  - Choose an existing key pair or create a new one. This key pair is crucial for accessing your instance securely.
+
+  ### 10. Launch Instances
+
+  - Click "Launch Instances" to create and launch your EC2 instances.
+
+  **Congratulations!** You have successfully created an EC2 instance in AWS. Your instance is now running and ready for use.
+
+</details>
+
 
 
 
