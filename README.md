@@ -658,5 +658,19 @@ If you're interested in contributing to this project or connecting with our cont
 
 <!-- Add any additional information or instructions for contributors below this line -->
 
+# License
 
+This project is licensed under the [MIT License](LICENSE).
+
+The codebase in this project is open source and is distributed under the terms of the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+The following technologies and tools are used in this project, each governed by its respective license:
+
+- AWS: [Amazon Web Services Terms](https://aws.amazon.com/terms/)
+- Python: [Python Software Foundation License](https://docs.python.org/3/license.html)
+- FileZilla: [GNU General Public License](https://filezilla-project.org/license.php)
+- GitHub: [GitHub Terms of Service](https://docs.github.com/en/github/site-policy/github-terms-of-service)
+- VSC (Visual Studio Code): [MIT License](https://opensource.org/licenses/MIT)
+
+Please review the licenses of the individual technologies and tools for more information.
 
