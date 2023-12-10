@@ -15,9 +15,17 @@ The purpose of this homework assignment is to get students an opportunity to bui
 - [Connecting to the EC2 Instance](#connecting-to-the-ec2-instance)
   - [Option 1: Connect using SSH from Local](#option-1-connect-using-ssh-from-local)
   - [Option 2: Connect using the AWS CLI](#option-2-connect-using-the-aws-cli)
+- [Creating Directories in EC2 Instance](#creating-directories-in-ec2-instance)
+  - [Option 1: Using Terminal or SSH](#option-1-using-terminal-or-ssh)
+  - [Option 2: Using AWS S3](#option-2-using-aws-s3)
+- [Creating Files in EC2 Instance](#creating-files-in-ec2-instance)
+  - [Option 1: Using Terminal or SSH](#option-1-using-terminal-or-ssh)
+  - [Option 2: Uploading Files](#option-2-uploading-files)
+  - [Option 3: Using AWS S3](#option-3-using-aws-s3)
 - [Deployment](#deployment)
 - [Contributing](#contributing)
 - [License](#license)
+
 
 
 # AWS Account Setup
