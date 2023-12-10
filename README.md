@@ -6,12 +6,12 @@ The purpose of this homework assignment is to get students an opportunity to bui
 # Table of Contents
 
 - [AWS Account Setup](#aws-account-setup)
-  - [Creating an AWS Account](#creating-an-aws-account) 
-  - [Creating an IAM Role in AWS](#creating-an-iam-role-in-aws)
-  - [Creating a VPC in AWS](#creating-a-vpc-in-aws)
-  - [Creating an EC2 Instance in AWS](#creating-an-ec2-instance-in-aws)
-  - [Creating an Internet Gateway in AWS](#creating-an-internet-gateway-in-aws)
-  - [Creating a Route Table in AWS](#creating-a-route-table-in-aws)
+  - [How to Create an AWS Account](#how-to-create-an-aws-account)
+  - [How to Create an IAM Role in AWS](#how-to-create-an-iam-role-in-aws)
+  - [How to Create a VPC in AWS](#how-to-create-a-vpc-in-aws)
+  - [How to Create an EC2 Instance in AWS](#how-to-create-an-ec2-instance-in-aws)
+  - [How to Create an Internet Gateway in AWS](#how-to-create-an-internet-gateway-in-aws)
+  - [How to Create a Route Table in AWS](#how-to-create-a-route-table-in-aws)
 - [Contributing](#contributing)
 - [License](#license)
 
