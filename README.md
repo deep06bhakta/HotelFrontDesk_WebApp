@@ -480,15 +480,50 @@ Adjust the content as needed, and make sure to replace placeholders such as `fil
 <details>
   <summary>Using FileZilla</summary>
 
-  FileZilla is a popular graphical SFTP client that allows easy file transfer to and from your EC2 instance.
+  FileZilla is a popular graphical SFTP client that simplifies file transfer to and from your EC2 instance.
 
   ### Steps
-  1. Download and install FileZilla on your local machine.
-  2. Open FileZilla and enter your EC2 instance's public IP address, username (usually ec2-user), and private key.
-  3. Connect to the EC2 instance.
-  4. Use the interface to navigate to the destination directory on the EC2 instance.
-  5. Drag and drop the files from your local machine to the EC2 instance.
 
-  **Note:** Ensure that you've set the correct permissions on the EC2 instance for FileZilla to access.
+  #### 1. Download and Install FileZilla
+
+  - Download FileZilla from the [official website](https://filezilla-project.org/) and install it on your local machine.
+
+  #### 2. Gather EC2 Instance Information
+
+  - Open the AWS Management Console.
+  - Navigate to the EC2 service.
+  - Note the following information:
+    - **Public IP address** of your EC2 instance.
+    - **Username** (usually `ec2-user` for Amazon Linux instances).
+    - **Private key** (.pem file) used for authentication.
+
+  #### 3. Configure FileZilla
+
+  - Open FileZilla and go to `File` > `Site Manager`.
+  - Click on `New Site` and enter a name for your EC2 instance.
+  - Set the `Protocol` to `SFTP - SSH File Transfer Protocol`.
+  - Enter the EC2 instance's **Public IP address** as the `Host`.
+  - Set the `Port` to `22`.
+  - Select `Key file` as the logon type and browse to your EC2 instance's **Private key** (.pem file).
+  - Click `Connect` to save the configuration.
+
+  #### 4. Connect to the EC2 Instance
+
+  - In FileZilla, select the EC2 instance from the `Site Manager` or click `File` > `Site Manager` and select your EC2 site.
+  - Click `Connect`.
+
+  #### 5. Transfer Files
+
+  - Once connected, you'll see the local files on the left and the remote files on the right.
+  - Navigate to the destination directory on the EC2 instance (right side).
+  - Select the files on your local machine (left side) that you want to transfer.
+  - Drag and drop the selected files to the desired directory on the EC2 instance.
+
+  #### 6. Verify Transfer
+
+  - After the transfer is complete, verify that the files appear in the correct destination on the EC2 instance.
+
+  **Note:** Ensure that you've set the correct file and directory permissions on the EC2 instance for FileZilla to access and transfer files.
 
 </details>
+
