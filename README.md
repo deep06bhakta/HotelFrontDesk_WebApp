@@ -624,21 +624,26 @@ Adjust the content as needed, and make sure to replace placeholders such as `fil
 
 # Contributors
 
-A big thank you to the following contributors who have helped in the development of this project:
+A big shoutout to the fantastic contributors who have made valuable contributions to this project!
 
-- **Deep Bhakta**
-  - Email: [deepbhakta06@gmail.com](mailto:deepbhakta06@gmail.com)
-  - GitHub: [deep06bhakta](https://github.com/deep06bhakta)
+### Deep Bhakta
+- **Email:** [deepbhakta06@gmail.com](mailto:deepbhakta06@gmail.com)
+- **GitHub:** [deep06bhakta](https://github.com/deep06bhakta)
+- **LinkedIn:** [Deep Bhakta](https://www.linkedin.com/in/deep-bhakta-07355a172/)
 
-- **Branden Zamora**
-  - Email: [branden.z1229@gmail.com](mailto:branden.z1229@gmail.com)
-  - GitHub: [branden12](https://github.com/branden12)
+### Branden Zamora
+- **Email:** [branden.z1229@gmail.com](mailto:branden.z1229@gmail.com)
+- **GitHub:** [branden12](https://github.com/branden12)
+- **LinkedIn:** [Branden Zamora](https://www.linkedin.com/in/brandenz29/)
 
-- **Brian Contreras**
-  - Email: N/A
-  - GitHub: N/A
+### Brian Contreras
+- **Email:** N/A
+- **GitHub:** N/A
+- **LinkedIn:** [Brian Contreras](https://www.linkedin.com/in/contrerasbrian/)
 
-If you are interested in contributing to this project, feel free to reach out or submit pull requests. Your contributions are highly appreciated!
+If you're interested in contributing to this project or connecting with our contributors, feel free to reach out! Your contributions and support are highly appreciated.
+
+<!-- Add any additional information or instructions for contributors below this line -->
 
 
 
