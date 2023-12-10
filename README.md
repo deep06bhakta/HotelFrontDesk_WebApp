@@ -126,6 +126,55 @@ The purpose of this homework assignment is to get students an opportunity to bui
 
 </details>
 
+<details>
+  <summary><strong>How to Create a VPC in AWS</strong></summary>
+
+  A Virtual Private Cloud (VPC) is a logically isolated section of the AWS Cloud where you can launch AWS resources. Follow the steps below to create a VPC:
+
+  ### 1. Navigate to the VPC Dashboard
+
+  - Go to the AWS Management Console and navigate to the VPC service.
+
+  ### 2. Click on "Your VPCs"
+
+  - In the VPC dashboard, click on "Your VPCs" in the navigation pane.
+
+  ### 3. Click on "Create VPC"
+
+  - Click the "Create VPC" button to initiate the VPC creation process.
+
+  ### 4. Enter VPC Details
+
+  - Provide a name and CIDR block for your VPC.
+  - Optionally, configure IPv6 CIDR blocks and other advanced settings.
+
+  ### 5. Configure Subnets
+
+  - Define subnets within your VPC. Specify the CIDR block for each subnet and ensure they are associated with the VPC.
+
+  ### 6. Configure Route Tables
+
+  - Create and configure route tables for your VPC. Define routes for traffic leaving and entering the VPC.
+
+  ### 7. Configure Security Groups and Network ACLs
+
+  - Set up security groups to control inbound and outbound traffic to your instances.
+  - Configure Network Access Control Lists (NACLs) for additional network-level security.
+
+  ### 8. Configure Internet Gateway (Optional)
+
+  - If you want your VPC to communicate with the internet, create and attach an Internet Gateway.
+
+  ### 9. Review and Create
+
+  - Review the configuration details for your VPC.
+  - Click "Create VPC" to complete the process.
+
+  **Congratulations!** You have successfully created a VPC in AWS. Your VPC is now ready to host and isolate AWS resources within your defined network.
+
+</details>
+
+
 
 
 
