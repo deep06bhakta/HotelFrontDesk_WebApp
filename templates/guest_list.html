@@ -6,28 +6,41 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/login.css') }}">
+
+    <!-- Optional Custom CSS -->
+    <style>
+        .return-to-frontdesk-btn {
+            position: fixed;
+            bottom: 20px; /* Adjust the position from the bottom */
+            left: 50%;
+            transform: translateX(-50%);
+            width: 200px; /* Adjust the width of the button */
+        }
+    </style>
 </head>
 <body class="bg-light">
     <div class="container mt-5">
         <h1 class="text-center mb-4">Guest List</h1>
         <div class="row">
             {% for guest in guests %}
-    <div class="col-md-4 mb-4">
-        <div class="card h-100">
-            <div class="card-body">
-                <h5 class="card-title">Guest: {{ guest.name }}</h5>
-                <p class="card-text">Room: {{ guest.room_number }}</p>
-                <!-- More guest details can be added here -->
-            </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Guest: {{ guest.name }}</h5>
+                            <p class="card-text">Room: {{ guest.room_number }}</p>
+                            <!-- More guest details can be added here -->
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
         </div>
     </div>
-{% endfor %}
-        </div>
-        <!-- Link to return to Front Desk -->
-        <div class="text-center">
-            <a href="{{ url_for('front_desk') }}" class="btn btn-link mt-3" style="color: aliceblue;">Return to Front Desk</a>
-        </div>
+
+    <!-- Fixed Button at the Bottom -->
+    <div class="return-to-frontdesk-btn">
+        <a href="{{ url_for('front_desk') }}" class="btn btn-primary btn-block">Return to Front Desk</a>
     </div>
+
     <!-- Optional: Bootstrap JS -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>

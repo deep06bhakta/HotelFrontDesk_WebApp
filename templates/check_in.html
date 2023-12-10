@@ -17,6 +17,10 @@
         </div>
         {% endif %}
 
+        {% if error %}
+        <div class="alert alert-danger">{{ error }}</div>
+        {% endif %}
+
         <form method="POST" action="{{ url_for('check_in') }}">
             <!-- Name Field -->
             <div class="form-group">
