@@ -26,6 +26,7 @@ The purpose of this homework assignment is to get students an opportunity to bui
   - [Option 1: Using Terminal or SSH](#using-terminal-or-ssh)
   - [Option 2: Using AWS S3](#using-aws-s3)
   - [Option 3: Using FileZilla](#using-filezilla)
+- [Deploying Python Web Application Project](#deploying-python-web-application-project)
 - [Deployment](#deployment)
 - [Contributing](#contributing)
 - [License](#license)
@@ -527,5 +528,97 @@ Adjust the content as needed, and make sure to replace placeholders such as `fil
   **Note:** Ensure that you've set the correct file and directory permissions on the EC2 instance for FileZilla to access and transfer files.
 
 </details>
+
+<details>
+  <summary>Deploying Python Web Application Project</summary>
+
+  This guide provides steps to deploy a Python web application project to an EC2 instance.
+
+  ### 1. Download the Repository
+
+  - Clone or download the repository to your local machine.
+
+  ### 2. Run Demo App Locally
+
+  - Open the terminal in Visual Studio Code.
+  - Run the demo app by executing the following commands:
+    ```bash
+    python run.py
+    ```
+  - Click on the first HTTP link (usually http://127.0.0.1:5000) to open the web app.
+  - Stop the web app by pressing `CTRL+C`.
+  - Save the project dependencies to `requirements.txt`:
+    ```bash
+    pip freeze > requirements.txt
+    ```
+
+  ### 3. Connect to the EC2 Instance
+
+  - SSH into the EC2 instance from your local device.
+
+  ### 4. Upload Files Using FileZilla
+
+  - Use FileZilla to upload the project files to the EC2 instance.
+
+  ### 5. Check Python Version
+
+  - In the EC2 terminal, check the Python version:
+    ```bash
+    python --version
+    ```
+    To exit the Python interpreter, type `exit()`.
+
+  ### 6. Create a Directory and Set Up Virtual Environment
+
+  - Create a directory and navigate to it:
+    ```bash
+    mkdir your_directory_name
+    cd your_directory_name
+    ```
+
+  - Create a Python virtual environment:
+    ```bash
+    python3 -m venv venv
+    ```
+
+  - Activate the virtual environment:
+    ```bash
+    source venv/bin/activate
+    ```
+
+  ### 7. Install Project Dependencies
+
+  - Install the project dependencies from `requirements.txt`:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+  ### 8. Update Pip
+
+  - Upgrade pip to the latest version:
+    ```bash
+    pip install --upgrade pip
+    ```
+
+  ### 9. Run the Web App
+
+  - Start the web app:
+    ```bash
+    python run.py
+    ```
+
+  ### 10. Access the Website
+
+  - Open your browser and go to your EC2 instance's public IP address with port 5000 (e.g., http://1.2.3.4:5000).
+
+  ### 11. Adjust Security Group Rules (if needed)
+
+  - If the website doesn't load, check your EC2 instance's security group.
+  - Add a custom TCP rule for port 5000 with source `0.0.0.0/0` to allow external access.
+
+  Now, your Python web application is deployed on the EC2 instance. Customize the commands based on your project structure and requirements.
+
+</details>
+
 
 
