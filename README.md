@@ -484,9 +484,10 @@ Adjust the content as needed, and make sure to replace placeholders such as `fil
 
   ### Steps
 
-  #### 1. Download and Install FileZilla
+  #### 1. Download and Install FileZilla Client
 
-  - Download FileZilla from the [official website](https://filezilla-project.org/) and install it on your local machine.
+  - Download FileZilla Client from the [official website](https://filezilla-project.org/) (make sure to download the client version, not the server version).
+  - Install FileZilla Client on your local machine.
 
   #### 2. Gather EC2 Instance Information
 
@@ -526,4 +527,5 @@ Adjust the content as needed, and make sure to replace placeholders such as `fil
   **Note:** Ensure that you've set the correct file and directory permissions on the EC2 instance for FileZilla to access and transfer files.
 
 </details>
+
 
