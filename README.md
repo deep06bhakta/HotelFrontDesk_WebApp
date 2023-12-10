@@ -1,4 +1,4 @@
-# Hotel Front Desk Web Application using EC2 Instance
+# Hotel Front Desk Web Application using AWS 
 
 The purpose of this homework assignment is to get students an opportunity to build a cloud application using EC2 and utilize some of the AWS tools.
 
