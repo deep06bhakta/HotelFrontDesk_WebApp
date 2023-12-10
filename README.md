@@ -5,7 +5,7 @@ The purpose of this homework assignment is to get students an opportunity to bui
 
 # Table of Contents
 
-- [How to Create an AWS Account](#how-to-create-an-aws-account)
+- [Creating an AWS Account](#creating-an-aws-account)
     - [Navigate to the AWS Sign-Up Page](#1-navigate-to-the-aws-sign-up-page)
     - [Provide your Email Address](#2-provide-your-email-address)
     - [Enter Account Information](#3-enter-account-information)
@@ -16,7 +16,7 @@ The purpose of this homework assignment is to get students an opportunity to bui
     - [Complete Sign-Up](#8-complete-sign-up)
     - [Account Activation](#9-account-activation)
 
-- [How to Create an IAM Role in AWS](#how-to-create-an-iam-role-in-aws)
+- [Creating an IAM Role in AWS](#creating-an-iam-role-in-aws)
     - [Navigate to the IAM Console](#1-navigate-to-the-iam-console)
     - [Select "Roles" in the Navigation Pane](#2-select-roles-in-the-navigation-pane)
     - [Click on "Create Role"](#3-click-on-create-role)
@@ -27,13 +27,45 @@ The purpose of this homework assignment is to get students an opportunity to bui
     - [Review and Name the Role](#8-review-and-name-the-role)
     - [Access and Use the Role](#9-access-and-use-the-role)
 
-- [Additional Sections (if applicable)](#additional-sections-if-applicable)
-    - [Section 1](#21-section-1)
-    - [Section 2](#22-section-2)
+- [Creating a VPC in AWS](#creating-a-vpc-in-aws)
+    - [Navigate to the VPC Dashboard](#1-navigate-to-the-vpc-dashboard)
+    - [Click on "Your VPCs"](#2-click-on-your-vpcs)
+    - [Click on "Create VPC"](#3-click-on-create-vpc)
+    - [Enter VPC Details](#4-enter-vpc-details)
+    - [Configure Subnets](#5-configure-subnets)
+    - [Configure Route Tables](#6-configure-route-tables)
+    - [Configure Security Groups and Network ACLs](#7-configure-security-groups-and-network-acls)
+    - [Configure Internet Gateway (Optional)](#8-configure-internet-gateway-optional)
+    - [Review and Create](#9-review-and-create)
 
-- [Contributing](#contributing)
+- [Creating an EC2 Instance in AWS](#creating-an-ec2-instance-in-aws)
+    - [Navigate to the EC2 Dashboard](#1-navigate-to-the-ec2-dashboard)
+    - [Click on "Launch Instance"](#2-click-on-launch-instance)
+    - [Choose an Amazon Machine Image (AMI)](#3-choose-an-amazon-machine-image-ami)
+    - [Choose an Instance Type](#4-choose-an-instance-type)
+    - [Configure Instance Details](#5-configure-instance-details)
+    - [Add Storage](#6-add-storage)
+    - [Configure Security Groups](#7-configure-security-groups)
+    - [Review and Launch](#8-review-and-launch)
+    - [Create or Select Key Pair](#9-create-or-select-key-pair)
+    - [Launch Instances](#10-launch-instances)
 
-- [License](#license)
+- [Creating an Internet Gateway in AWS](#creating-an-internet-gateway-in-aws)
+    - [Navigate to the VPC Dashboard](#1-navigate-to-the-vpc-dashboard)
+    - [Click on "Internet Gateways" in the Navigation Pane](#2-click-on-internet-gateways-in-the-navigation-pane)
+    - [Click on "Create Internet Gateway"](#3-click-on-create-internet-gateway)
+    - [Name the Internet Gateway (Optional)](#4-name-the-internet-gateway-optional)
+    - [Click on "Create Internet Gateway"](#5-click-on-create-internet-gateway)
+    - [Attach Internet Gateway to VPC](#6-attach-internet-gateway-to-vpc)
+
+- [Creating a Route Table in AWS](#creating-a-route-table-in-aws)
+    - [Navigate to the VPC Dashboard](#1-navigate-to-the-vpc-dashboard)
+    - [Click on "Route Tables" in the Navigation Pane](#2-click-on-route-tables-in-the-navigation-pane)
+    - [Click on "Create Route Table"](#3-click-on-create-route-table)
+    - [Name the Route Table](#4-name-the-route-table)
+    - [Associate the Route Table with a VPC](#5-associate-the-route-table-with-a-vpc)
+    - [Add Routes](#6-add-routes)
+    - [Save Changes](#7-save-changes)
 
 <details>
   <summary><strong>How to Create an AWS Account</strong></summary>
