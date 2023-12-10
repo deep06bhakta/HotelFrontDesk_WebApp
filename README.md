@@ -23,9 +23,9 @@ The purpose of this homework assignment is to get students an opportunity to bui
   - [Option 2: Uploading Files](#option-2-uploading-files)
   - [Option 3: Using AWS S3](#option-3-using-aws-s3)
 - [Sending Files to EC2 Instance](#sending-files-to-ec2-instance)
-  - [Using Terminal or SSH](#using-terminal-or-ssh)
-  - [Using AWS S3](#using-aws-s3)
-  - [Using FileZilla](#using-filezilla)
+  - [Option 1: Using Terminal or SSH](#using-terminal-or-ssh)
+  - [Option 2: Using AWS S3](#using-aws-s3)
+  - [Option 3: Using FileZilla](#using-filezilla)
 - [Deployment](#deployment)
 - [Contributing](#contributing)
 - [License](#license)
@@ -442,7 +442,7 @@ Adjust the content as needed, and make sure to replace placeholders such as `fil
 # Sending Files to EC2 Instance
 
 <details>
-  <summary>Using Terminal or SSH</summary>
+  <summary>Option 1: Using Terminal or SSH</summary>
 
   You can send files directly to your EC2 instance using the terminal or SSH connection.
 
@@ -460,7 +460,7 @@ Adjust the content as needed, and make sure to replace placeholders such as `fil
 </details>
 
 <details>
-  <summary>Using AWS S3</summary>
+  <summary>Option 2: Using AWS S3</summary>
 
   Another option is to use AWS S3 to store and retrieve files on your EC2 instance.
 
@@ -478,7 +478,7 @@ Adjust the content as needed, and make sure to replace placeholders such as `fil
 </details>
 
 <details>
-  <summary>Using FileZilla</summary>
+  <summary>Option 3: Using FileZilla</summary>
 
   FileZilla is a popular graphical SFTP client that simplifies file transfer to and from your EC2 instance.
 
