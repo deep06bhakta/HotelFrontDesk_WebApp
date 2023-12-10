@@ -22,6 +22,10 @@ The purpose of this homework assignment is to get students an opportunity to bui
   - [Option 1: Using Terminal or SSH](#option-1-using-terminal-or-ssh)
   - [Option 2: Uploading Files](#option-2-uploading-files)
   - [Option 3: Using AWS S3](#option-3-using-aws-s3)
+- [Sending Files to EC2 Instance](#sending-files-to-ec2-instance)
+  - [Using Terminal or SSH](#using-terminal-or-ssh)
+  - [Using AWS S3](#using-aws-s3)
+  - [Using FileZilla](#using-filezilla)
 - [Deployment](#deployment)
 - [Contributing](#contributing)
 - [License](#license)
@@ -434,3 +438,4 @@ Adjust the content as needed, and make sure to replace placeholders such as `new
 </details>
 
 Adjust the content as needed, and make sure to replace placeholders such as `filename.txt`, `your-instance-ip`, `/path/to/local/file.txt`, `your-bucket-name`, and `/path/to/remote/` with your actual information.
+
