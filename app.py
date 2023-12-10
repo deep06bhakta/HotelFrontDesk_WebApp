@@ -37,9 +37,9 @@ def login():
 @app.route('/front_desk')
 def front_desk():
     current_date_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    rooms_left = calculate_rooms_left() # Implement this function
-    rooms_vacant = calculate_rooms_vacant() # Implement this function
-    rooms_to_clean = calculate_rooms_to_clean() # Implement this function
+    rooms_left = calculate_rooms_left()
+    rooms_vacant = calculate_rooms_vacant()
+    rooms_to_clean = calculate_rooms_to_clean()
 
     return render_template('front_desk.html', 
                            current_date_time=current_date_time,
@@ -58,7 +58,6 @@ def check_in():
         room_type = request.form.get('room__type', 'default-value')
         num_days = request.form['num_days']
         pymt_type = request.form.get('pymt_type', 'default-value')
-        # Assuming other fields are being captured
 
         # Create a new Guest object
         new_guest = Guest(
@@ -68,7 +67,6 @@ def check_in():
             pymt_type=pymt_type,
             room_type=room_type,
             num_days=num_days
-            # Set other fields as needed
         )
 
         # Add to the database and commit
@@ -95,7 +93,6 @@ def check_out():
             # No guest found
             return render_template('check_out.html', error="No guest found with the provided room number.")
 
-    # For a GET request, just render the check-out page
     return render_template('check_out.html')
 
 @app.route('/guest_list')
@@ -125,7 +122,7 @@ def calculate_rooms_to_clean():
     return Room.query.filter_by(is_occupied=False, needs_cleaning=True).count()
 
 
-#sqs.models
+# Sqs.models
 # Also work in progress #
 def send_sqs_message(queue_url, message_body):
     sqs = boto3.client('sqs')
