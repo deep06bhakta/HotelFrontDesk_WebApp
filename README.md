@@ -11,7 +11,6 @@ The purpose of this homework assignment is to get students an opportunity to bui
   - [Creating an EC2 Instance in AWS](#creating-an-ec2-instance-in-aws)
   - [Creating an Internet Gateway in AWS](#creating-an-internet-gateway-in-aws)
   - [Creating a Route Table in AWS](#creating-a-route-table-in-aws)
-  - [Additional Sections (if applicable)](#additional-sections-if-applicable)
 - [Contributing](#contributing)
 - [License](#license)
 
