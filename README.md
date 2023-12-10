@@ -660,10 +660,6 @@ If you're interested in contributing to this project or connecting with our cont
 
 # License
 
-This project is licensed under the [MIT License](LICENSE).
-
-The codebase in this project is open source and is distributed under the terms of the MIT License. See the [LICENSE](LICENSE) file for more details.
-
 The following technologies and tools are used in this project, each governed by its respective license:
 
 - AWS: [Amazon Web Services Terms](https://aws.amazon.com/terms/)
