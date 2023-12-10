@@ -6,6 +6,7 @@ The purpose of this homework assignment is to get students an opportunity to bui
 # Table of Contents
 
 - [AWS Account Setup](#aws-account-setup)
+  - [Creating an AWS Account](#creating-an-aws-account) 
   - [Creating an IAM Role in AWS](#creating-an-iam-role-in-aws)
   - [Creating a VPC in AWS](#creating-a-vpc-in-aws)
   - [Creating an EC2 Instance in AWS](#creating-an-ec2-instance-in-aws)
