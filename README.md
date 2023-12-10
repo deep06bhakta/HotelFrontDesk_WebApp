@@ -223,6 +223,42 @@ The purpose of this homework assignment is to get students an opportunity to bui
 
 </details>
 
+<details>
+  <summary>How to Create an Internet Gateway in AWS</summary>
+
+  An Internet Gateway enables communication between instances in your Virtual Private Cloud (VPC) and the internet. Follow the steps below to create an Internet Gateway:
+
+  ### 1. Navigate to the VPC Dashboard
+
+  - Go to the AWS Management Console and navigate to the VPC service.
+
+  ### 2. Click on "Internet Gateways" in the Navigation Pane
+
+  - In the VPC dashboard, click on "Internet Gateways" in the left navigation pane.
+
+  ### 3. Click on "Create Internet Gateway"
+
+  - Click the "Create Internet Gateway" button to initiate the Internet Gateway creation process.
+
+  ### 4. Name the Internet Gateway (Optional)
+
+  - Optionally, provide a name for the Internet Gateway to help identify it.
+
+  ### 5. Click on "Create Internet Gateway"
+
+  - Click the "Create Internet Gateway" button to complete the process.
+
+  ### 6. Attach Internet Gateway to VPC
+
+  - In the Internet Gateways dashboard, select the Internet Gateway you just created.
+  - Click on "Actions" and choose "Attach to VPC."
+  - Select the VPC to which you want to attach the Internet Gateway.
+
+  **Congratulations!** You have successfully created and attached an Internet Gateway to your VPC. Your VPC can now communicate with the internet through this gateway.
+
+</details>
+
+
 
 
 
