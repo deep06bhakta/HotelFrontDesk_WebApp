@@ -67,6 +67,9 @@ The purpose of this homework assignment is to get students an opportunity to bui
     - [Add Routes](#6-add-routes)
     - [Save Changes](#7-save-changes)
 
+
+# AWS Account Setup
+
 <details>
   <summary><strong>How to Create an AWS Account</strong></summary>
 
