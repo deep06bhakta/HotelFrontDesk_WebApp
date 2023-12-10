@@ -439,3 +439,56 @@ Adjust the content as needed, and make sure to replace placeholders such as `new
 
 Adjust the content as needed, and make sure to replace placeholders such as `filename.txt`, `your-instance-ip`, `/path/to/local/file.txt`, `your-bucket-name`, and `/path/to/remote/` with your actual information.
 
+# Sending Files to EC2 Instance
+
+<details>
+  <summary>Using Terminal or SSH</summary>
+
+  You can send files directly to your EC2 instance using the terminal or SSH connection.
+
+  ### Steps
+  1. Connect to your EC2 instance using SSH.
+  2. Use terminal commands to navigate to the destination location on your EC2 instance.
+  3. Use the `scp` command to securely copy files from your local machine to the EC2 instance. For example:
+
+      ```bash
+      scp /path/to/local/file.txt ec2-user@your-instance-ip:/path/on/ec2/
+      ```
+
+  4. Verify that the file has been successfully copied.
+
+</details>
+
+<details>
+  <summary>Using AWS S3</summary>
+
+  Another option is to use AWS S3 to store and retrieve files on your EC2 instance.
+
+  ### Steps
+  1. Upload the file to an S3 bucket using the AWS Management Console or AWS CLI.
+  2. Connect to your EC2 instance using SSH.
+  3. Use the AWS CLI to download the file from S3 to your EC2 instance. For example:
+
+      ```bash
+      aws s3 cp s3://your-bucket-name/path/to/file.txt /path/on/ec2/
+      ```
+
+  4. Verify that the file has been successfully downloaded.
+
+</details>
+
+<details>
+  <summary>Using FileZilla</summary>
+
+  FileZilla is a popular graphical SFTP client that allows easy file transfer to and from your EC2 instance.
+
+  ### Steps
+  1. Download and install FileZilla on your local machine.
+  2. Open FileZilla and enter your EC2 instance's public IP address, username (usually ec2-user), and private key.
+  3. Connect to the EC2 instance.
+  4. Use the interface to navigate to the destination directory on the EC2 instance.
+  5. Drag and drop the files from your local machine to the EC2 instance.
+
+  **Note:** Ensure that you've set the correct permissions on the EC2 instance for FileZilla to access.
+
+</details>
