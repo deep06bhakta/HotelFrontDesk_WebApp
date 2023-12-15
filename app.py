@@ -6,7 +6,6 @@ from flask import Flask
 from models import db
 from models import Guest
 from models import Room
-
 import boto3
 
 
